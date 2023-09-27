@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-task-4</title>
+</head>
+<body>
+    <div style="margin-bottom: 50px; margin-top: 20px;">
+        <button id="date" onclick="showDate()">Show Date</button>
+    </div>
+    <div>
+        <button id="time" onclick="showTime()">Show Time</button>
+    </div>
+    <script>
+        function showDate() {
+            var date = new Date();
+            var d = date.getDate();
+            var m = date.getMonth() + 1; // Add 1 to get the correct month
+            var y = date.getFullYear();
+            alert(d + "/" + m + "/" + y);
+        }
+
+        function showTime() {
+            var date = new Date();
+            var h = date.getHours();
+            var m = date.getMinutes();
+            var s = date.getSeconds();
+            alert(h + ":" + m + ":" + s);
+        }
+    </script>
+</body>
+</html>

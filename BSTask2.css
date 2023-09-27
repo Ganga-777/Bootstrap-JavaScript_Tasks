@@ -1,0 +1,11 @@
+.carousel-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.carousel-caption .btn {
+    margin-top: 15px;
+}

@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+
+.header {
+    padding: 1px 0;
+}
+
+.navbar {
+    background-color: rgb(150, 150, 150);
+    color: white;
+}
+
+.navbar a {
+    color: white;
+}
+
+.row {
+    height: 100vh;
+}
