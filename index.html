@@ -1,132 +1,156 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <title>all mern full stack</title>
-        <style>
-            
-                body {
-                    background: linear-gradient(to bottom, hwb(203 79% 2%), hsl(71, 88%, 84%)); /* You can change these colors to your preference */
-                    font-family: Arial, sans-serif;
-                    margin: 0;
-                    padding: 0;
-                }
-                h1 {
-                    text-align: center;
-                    color: #333;
-                }
-        
-                h3 {
-                    text-align: center;
-                    color: #555;
-                }
-        
-                table {
-                    width: 80%;
-                    margin: 20px auto;
-                    border-collapse: collapse;
-                    border-radius: 10px;
-                    overflow: hidden;
-                    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-                    background: #fff;
-                }
-        
-                th {
-                    background: #55ff33;
-                    color: white;
-                    padding: 15px;
-                    text-align: center;
-                }
-        
-                td {
-                    padding: 10px;
-                    text-align: center;
-                }
-        
-                tr:nth-child(even) {
-                    background: #c0faae;
-                }
-        
-                a {
-                    text-decoration: none;
-                    color: #333;
-                }
-        
-                a:hover {
-                    font-weight: bold;
-                }
-            </style>
-            
-        
-    </head>
-    <body>
-        <table border="1" align="center">
-            <tr><h1 align="center"> Bootstrap & JavaScipt Tasks</h1></tr>
-            <tr><h3 align="center">Done By: K.Ganga Vara Prasad</h3></tr>
-            <tr >
-                <th colspan="5" >Git Hub index</th>
-            </tr>
-            
-            <tr>
-               <td > <b>Task Number</b></td> 
-                <td> <b>Link</b></td>`
-            </tr>
-            <tr>
-                <td>Task1</td>
-                <td><a href="Bootstrap1.html">Link1</a></td>
-            </tr>
-            <tr>
-                <td>Task2</td>
-                <td><a href="Bootstrap2.html">Link2</a></td>
-            </tr>
-            <tr>
-                <td>Task3</td>
-                <td><a href="Bootstrap3.html">Link3</a></td>
-            </tr>
-            <tr>
-                <td>Task4</td>
-                <td><a href="Bootstrap4.html">Link4</a></td>
-            </tr>
-            <tr>
-                <td>Task5</td>
-                <td><a href="Bootstrap5.html">Link5</a></td>
-            </tr>
-              <tr>
-                <td>Task6</td>
-                <td><a href="Bootstrap6.html">Link6</a></td>
-            </tr>
-            <tr>
-                <td>Task7</td>
-                <td><a href="JS1.html">Link7</a></td>
-            </tr>
-            <tr>
-                <td>Task8</td>
-                <td><a href="JS2.html">Link8</a></td>
-            </tr>
-            <tr>
-                <td>Task9</td>
-                <td><a href="JS3.html">Link9</a></td>
-            </tr>
-            <tr>
-                <td>Task10</td>
-                <td><a href="JS4.html">Link10</a></td>
-            </tr>
-            <tr>
-                <td>Task11</td>
-                <td><a href="JS5.html">Link11</a></td>
-            </tr>
-            <tr>
-                <td>Task12</td>
-                <td><a href="JS6.html">Link12</a></td>
-            </tr>
-            <tr>
-                <td>Task13</td>
-                <td><a href="JS7.html">Link13</a></td>
-            </tr>
-            <tr>
-                <td>Task14</td>
-                <td><a href="JS8.html">Link14</a></td>
-            </tr>
-        </table>
-    </body>
+<head>
+    <title>all mern full stack</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, hwb(203 79% 2%), hsl(71, 88%, 84%));
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        h3 {
+            text-align: center;
+            color: #555;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            background: #fff;
+            opacity: 0; /* Initially set opacity to 0 for the fade-in effect */
+            animation: fadeIn 1s forwards; /* Apply fade-in animation */
+        }
+
+        th {
+            background: #55ff33;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background: #c0faae;
+            transform: scale(0.9); /* Initially set scale to 0.9 for the scale-up effect */
+            animation: scaleUp 0.5s forwards ease-in-out; /* Apply scale-up animation */
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        a:hover {
+            font-weight: bold;
+        }
+
+        /* Keyframes for animations */
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes scaleUp {
+            to {
+                transform: scale(1);
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <table border="1" align="center">
+        <tr>
+            <h1 align="center"> Bootstrap & JavaScipt Tasks</h1>
+        </tr>
+        <tr>
+            <h3 align="center">Done By: K.Ganga Vara Prasad</h3>
+        </tr>
+        <tr>
+            <th colspan="2">Git Hub index</th>
+        </tr>
+
+        <tr>
+            <td><b>Task Number</b></td>
+            <td><b>Link</b></td>`
+        </tr>
+
+        <tr>
+            <td>Task1</td>
+            <td><a href="Bootstrap1.html">Link1</a></td>
+        </tr>
+        <tr>
+            <td>Task2</td>
+            <td><a href="Bootstrap2.html">Link2</a></td>
+        </tr>
+        <tr>
+            <td>Task3</td>
+            <td><a href="Bootstrap3.html">Link3</a></td>
+        </tr>
+        <tr>
+            <td>Task4</td>
+            <td><a href="Bootstrap4.html">Link4</a></td>
+        </tr>
+        <tr>
+            <td>Task5</td>
+            <td><a href="Bootstrap5.html">Link5</a></td>
+        </tr>
+          <tr>
+            <td>Task6</td>
+            <td><a href="Bootstrap6.html">Link6</a></td>
+        </tr>
+        <tr>
+            <td>Task7</td>
+            <td><a href="JS1.html">Link7</a></td>
+        </tr>
+        <tr>
+            <td>Task8</td>
+            <td><a href="JS2.html">Link8</a></td>
+        </tr>
+        <tr>
+            <td>Task9</td>
+            <td><a href="JS3.html">Link9</a></td>
+        </tr>
+        <tr>
+            <td>Task10</td>
+            <td><a href="JS4.html">Link10</a></td>
+        </tr>
+        <tr>
+            <td>Task11</td>
+            <td><a href="JS5.html">Link11</a></td>
+        </tr>
+        <tr>
+            <td>Task12</td>
+            <td><a href="JS6.html">Link12</a></td>
+        </tr>
+        <tr>
+            <td>Task13</td>
+            <td><a href="JS7.html">Link13</a></td>
+        </tr>
+        <tr>
+            <td>Task14</td>
+            <td><a href="JS8.html">Link14</a></td>
+        </tr>
+        <!-- ... (Your table rows) ... -->
+    </table>
+</body>
+
 </html>
